@@ -1,10 +1,15 @@
+using MoneyExtensionMalosti;
+
 namespace MoneyExtension.Test;
 
 [TestClass]
-public class UnitTest1
+public class MoneyExtensionTests
 {
     [TestMethod]
-    public void TestMethod1()
+    public void ShouldConvertDecimalToInt()
     {
+        decimal valor = 297.98M;
+        var cents = valor.ToCents();
+        Assert.AreEqual(29798, cents);
     }
 }
