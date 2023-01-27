@@ -8,7 +8,7 @@
     <PackageId>MoneyExtensionMalosti</PackageId>
     <Version>1.0.0</Version>
     <License>MIT</License>
-    <Authors>Guilherme Malosti</Authors>
+    <Authors>Guilherme Malosti Fonseca</Authors>
     <PackageDescription>Extension to convert decimal to integer</PackageDescription>
     <Description>Extension to convert decimal to integer</Description>
     <RepositoryUrl>https://github.com/Malosti/MoneyExtensionMalosti</RepositoryUrl>
